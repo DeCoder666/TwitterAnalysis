@@ -14,11 +14,11 @@ app.config['SECRET_KEY'] = 'yes'
 
 
 #API configuration
-api_key = "PQrpOG29M8xjgra5L6Kid5okR"
-api_key_secret = "UW4CF31wXC5oG1E65GRGYM23s0wGcIdsBl6pqZLS9wIOvojBqi"
+api_key = "hidden"
+api_key_secret = "hidden"
 
-access_token = "1314088972147134465-yPvrcbIjtrQYDCOWlDf52aNgJAV1Tt"
-access_token_secret = "IzHd7M2EaBmNl2P1c5LELgEEfhsaWcim4ZFbjPdSGnSAt"
+access_token = "hidden"
+access_token_secret = "hidden"
 
 auth = tweepy.OAuthHandler(api_key, api_key_secret)
 auth.set_access_token(access_token, access_token_secret)
